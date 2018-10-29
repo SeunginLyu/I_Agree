@@ -2068,6 +2068,17 @@ input, select, textarea {
 				opacity: 0;
 			}
 
+.display {
+	position: relative;
+	color: #fff;
+	text-shadow: 0 0 0.5px rgba(255, 255, 255, 0.25);
+	text-align: center;
+	/* background: url("images/banner.svg") bottom center no-repeat; */
+	padding: 5em 0 5em 0;
+	margin: 0;
+	background-size: 125% auto;
+	display:none;
+}
 /* Banner */
 
 	#banner {
@@ -2081,10 +2092,6 @@ input, select, textarea {
 		background-size: 125% auto;
 	}
 
-		#banner .button {
-			color: #35b882;
-			text-shadow: 0 0 0.5px rgba(53, 184, 130, 0.25);
-		}
 
 		#banner header {
 			margin: 0 0 2em 0;
@@ -2104,14 +2111,14 @@ input, select, textarea {
 			margin: 2em 0 0 0;
 		}
 
-		#banner a {
+		/* #banner a {
 			color: inherit;
 			border-bottom-color: rgba(255, 255, 255, 0.5);
 		}
 
 			#banner a:hover {
 				border-bottom-color: rgba(255, 255, 255, 0);
-			}
+			} */
 
 /* Footer */
 
@@ -2629,3 +2636,7 @@ input, select, textarea {
 			}
 
 	}
+
+.answer .button{
+	padding:1em 1em 1em 1em;
+}

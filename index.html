@@ -10,6 +10,8 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="assets/css/progress.css" />
+
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
 	<body class="is-preload">
@@ -35,7 +37,7 @@
 					<a href="#first" class="button style2 scrolly-middle">Okay</a>
 				</footer>
 			</section>
-		<!-- Feature 2 -->
+		<!-- Q1 -->
 			<article id="first" class="container box style1 left">
 				<a href="" class="image"><img src="https://cdn3.iconfinder.com/data/icons/pyconic-icons-1-2/512/location-map-512.png" alt="" /></a>
 				<div class="inner">
@@ -46,29 +48,39 @@
 						<li> your current location </li>
 					  <li> where you live </li>
 						<li> the places you like to go </li>
-						<li> the businesses and people you're near-to </li>
+						<li> people you're near-to </li>
 						to provide, personalize and improve our Products, including ads, for you and others.</p>
-					<footer>
+					<footer class="answer">
 						<a href="#2" class="button style2 scrolly-middle">Agree</a>
-						<a href="#2" class="button style2 scrolly-middle">Disagree</a>
+						<a id="d1" class="button style2 scrolly-middle">Disagree</a>
 					</footer>
 				</div>
-			</article>
 
-		<!-- Feature 2 -->
-			<article id="2" class="container box style1 left">
-				<a href="#" class="image fit"><img src="images/pic02.jpg" alt="" /></a>
-				<div class="inner">
-					<header>
-						<h2>Mollis posuere<br />
-						lectus lacus</h2>
-					</header>
-					<p>Rhoncus mattis egestas sed fusce sodales rutrum et etiam ullamcorper. Etiam egestas scelerisque ac duis magna lorem ipsum dolor.</p>
-					<footer>
-						<a href="#first" class="button style2 scrolly-middle">Agree</a>
-					</footer>
-				</div>
 			</article>
+			<section id="display1" class="display">
+				<header>
+					<h3 class="displaytext">Give me a second...</h3>
+				</header>
+				<div class="well">
+					<h2><div id="progressbar"><div class="progress-label">Deleting Access...</div></div></h2>
+				</div>
+			</section>
+
+		<!-- Q2 -->
+		<article id="2" class="container box style1 left">
+			<a href="" class="image"><img src="https://cdn3.iconfinder.com/data/icons/pyconic-icons-1-2/512/location-map-512.png" alt="" /></a>
+			<div class="inner">
+				<header>
+					<h2>Do You Agree?</h2>
+				</header>
+				<p>We may retain, but not display, distribute or perform, services copies of your content that you have removed or deleted.</p>
+				<footer class="answer">
+					<a href="#3" class="button style2 scrolly-middle">Agree</a>
+					<a href="#2" class="button style2 scrolly-middle">Disagree</a>
+				</footer>
+			</div>
+		</article>
+
 
 		<!-- Portfolio -->
 			<article id="final" class="container box style2">
@@ -255,12 +267,14 @@
 
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
+			<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
 			<script src="assets/js/jquery.scrolly.min.js"></script>
 			<script src="assets/js/jquery.poptrox.min.js"></script>
 			<script src="assets/js/browser.min.js"></script>
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script src="assets/js/display.js"></script>
 
 	</body>
 </html>
