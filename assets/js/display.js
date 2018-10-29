@@ -33,7 +33,3 @@ $( "#d1" ).click(function() {
       setTimeout( progress, 2000 );
     });
 });
-
-$(document).ready(function() {
-
-});
