@@ -2639,4 +2639,15 @@ input, select, textarea {
 
 .answer .button{
 	padding:1em 1em 1em 1em;
+	width:150px;
+	margin-right:1em;
+}
+.display ul.icons a {
+    display: inline-block;
+    width: 4em;
+    height: 4em;
+    line-height: 4em;
+    text-align: center;
+    border: 0;
+		color:white;
 }
