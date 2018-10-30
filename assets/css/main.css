@@ -1926,6 +1926,7 @@ input, select, textarea {
 					position: relative;
 				}
 
+        /*
 					.box.style2 .inner .row:before {
 						content: '';
 						display: block;
@@ -1934,7 +1935,8 @@ input, select, textarea {
 						left: 20px;
 						width: calc(100% - 40px);
 						border-bottom: solid 1px #fff;
-					}
+				}
+        */
 
 				.box.style2 .inner .image {
 					position: relative;
@@ -2650,4 +2652,38 @@ input, select, textarea {
     text-align: center;
     border: 0;
 		color:white;
+}
+
+.companies {
+     display: inline-block;
+    width: 4em;
+    height: 4em;
+    line-height: 4em;
+    text-align: center;
+    border: 0;
+		color:white;
+}
+
+div.inner-container {
+  display: inline-block;
+  background-color: green;
+  border-radius: 1em;
+}
+
+div.outer-container {
+  text-align: center;
+}
+
+.netflix-icon {
+  color: white;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.row-spacer {
+  height: 2em;
+}
+
+.bottom {
+  height: 4em;
 }

@@ -92,3 +92,9 @@ $("#n2").click(function(){
         scrollTop: $("#3").offset().top
     }, 1500);
 });
+
+$("#n100").click(function(){
+  $([document.documentElement, document.body]).animate({
+        scrollTop: $("#company-grid").offset().top
+    }, 1500);
+});
