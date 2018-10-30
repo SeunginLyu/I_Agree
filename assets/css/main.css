@@ -1851,7 +1851,7 @@ input, select, textarea {
 				top: 0;
 				width: 50%;
 				height: 100%;
-				background: #152E33;
+				background: indianred;
 				overflow: hidden;
 			}
 
@@ -2641,7 +2641,9 @@ input, select, textarea {
 	padding:1em 1em 1em 1em;
 	width:150px;
 	margin-right:1em;
+	margin-top:1em;
 }
+
 .display ul.icons a {
     display: inline-block;
     width: 3em;
