@@ -11,9 +11,8 @@
     position: absolute;
     text-align: center;
     width: 100%;
-    color: #cccccc;
-    font-family: 'Open Sans Condensed', sans-serif;
-    font-size: 20px;
+    font-size: 40px;
+    color:red;
 }
 .ui-widget-header {
     background: #ec2528;
