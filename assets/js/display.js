@@ -29,7 +29,7 @@ $( "#d1" ).click(function() {
         progressLabel = $( ".progress-label" );
 
       progressbar.progressbar({
-        value: false,
+        value: 0,
         change: function() {
           progressLabel.text( progressbar.progressbar( "value" ) + "%" );
         },
@@ -42,7 +42,7 @@ $( "#d1" ).click(function() {
       function progress() {
         var val = progressbar.progressbar( "value" ) || 0;
 
-        progressbar.progressbar( "value", val + 2 );
+        progressbar.progressbar( "value", val + 6 );
 
         if ( val < 99 ) {
           setTimeout( progress, 80 );
@@ -60,7 +60,7 @@ $( "#d1" ).click(function() {
       removed['Slack'] = true;
       $(".display ul.icons a").animate({
         backgroundColor:"red"
-      }, 8000)
+      }, 4000)
       setTimeout( progress, 2000 );
     });
 });
@@ -82,7 +82,7 @@ $( "#d2" ).click(function() {
         progressLabel = $( ".progress-label" );
 
       progressbar.progressbar({
-        value: false,
+        value: 0,
         change: function() {
           progressLabel.text( progressbar.progressbar( "value" ) + "%" );
         },
@@ -95,7 +95,7 @@ $( "#d2" ).click(function() {
       function progress() {
         var val = progressbar.progressbar( "value" ) || 0;
 
-        progressbar.progressbar( "value", val + 2 );
+        progressbar.progressbar( "value", val + 6 );
 
         if ( val < 99 ) {
           setTimeout( progress, 80 );
@@ -108,7 +108,7 @@ $( "#d2" ).click(function() {
       removed['Reddit'] = true;
       $(".display ul.icons a").animate({
         backgroundColor:"red"
-      }, 8000)
+      }, 4000)
       setTimeout( progress, 2000 );
 
     });
@@ -132,7 +132,7 @@ $( "#d3" ).click(function() {
         progressLabel = $( ".progress-label" );
 
       progressbar.progressbar({
-        value: false,
+        value: 0,
         change: function() {
           progressLabel.text( progressbar.progressbar( "value" ) + "%" );
         },
@@ -145,7 +145,7 @@ $( "#d3" ).click(function() {
       function progress() {
         var val = progressbar.progressbar( "value" ) || 0;
 
-        progressbar.progressbar( "value", val + 2 );
+        progressbar.progressbar( "value", val + 6 );
 
         if ( val < 99 ) {
           setTimeout( progress, 80 );
@@ -160,7 +160,7 @@ $( "#d3" ).click(function() {
       removed['Twitch'] = true;
       $(".display ul.icons a").animate({
         backgroundColor:"red"
-      }, 8000)
+      }, 4000)
       setTimeout( progress, 2000 );
 
     });
@@ -185,7 +185,7 @@ $( "#d4" ).click(function() {
         progressLabel = $( ".progress-label" );
 
       progressbar.progressbar({
-        value: false,
+        value: 0,
         change: function() {
           progressLabel.text( progressbar.progressbar( "value" ) + "%" );
         },
@@ -198,7 +198,7 @@ $( "#d4" ).click(function() {
       function progress() {
         var val = progressbar.progressbar( "value" ) || 0;
 
-        progressbar.progressbar( "value", val + 2 );
+        progressbar.progressbar( "value", val + 6 );
 
         if ( val < 99 ) {
           setTimeout( progress, 80 );
@@ -217,7 +217,7 @@ $( "#d4" ).click(function() {
       removed['Twitch']= true;
       $(".display ul.icons a").animate({
         backgroundColor:"red"
-      }, 8000)
+      }, 4000)
       setTimeout( progress, 2000 );
 
     });
@@ -241,7 +241,7 @@ $( "#d5" ).click(function() {
         progressLabel = $( ".progress-label" );
 
       progressbar.progressbar({
-        value: false,
+        value: 0,
         change: function() {
           progressLabel.text( progressbar.progressbar( "value" ) + "%" );
         },
@@ -254,7 +254,7 @@ $( "#d5" ).click(function() {
       function progress() {
         var val = progressbar.progressbar( "value" ) || 0;
 
-        progressbar.progressbar( "value", val + 2 );
+        progressbar.progressbar( "value", val + 6 );
 
         if ( val < 99 ) {
           setTimeout( progress, 80 );
@@ -267,7 +267,7 @@ $( "#d5" ).click(function() {
       removed['Ebay'] = true;
       $(".display ul.icons a").animate({
         backgroundColor:"red"
-      }, 8000)
+      }, 4000)
       setTimeout( progress, 2000 );
 
     });
@@ -291,7 +291,7 @@ $( "#d6" ).click(function() {
         progressLabel = $( ".progress-label" );
 
       progressbar.progressbar({
-        value: false,
+        value: 0,
         change: function() {
           progressLabel.text( progressbar.progressbar( "value" ) + "%" );
         },
@@ -304,7 +304,7 @@ $( "#d6" ).click(function() {
       function progress() {
         var val = progressbar.progressbar( "value" ) || 0;
 
-        progressbar.progressbar( "value", val + 2 );
+        progressbar.progressbar( "value", val + 6 );
 
         if ( val < 99 ) {
           setTimeout( progress, 80 );
@@ -326,7 +326,7 @@ $( "#d6" ).click(function() {
 
       $(".display ul.icons a").animate({
         backgroundColor:"red"
-      }, 8000)
+      }, 4000)
       setTimeout( progress, 2000 );
 
     });
@@ -350,7 +350,7 @@ $( "#d7" ).click(function() {
         progressLabel = $( ".progress-label" );
 
       progressbar.progressbar({
-        value: false,
+        value: 0,
         change: function() {
           progressLabel.text( progressbar.progressbar( "value" ) + "%" );
         },
@@ -363,7 +363,7 @@ $( "#d7" ).click(function() {
       function progress() {
         var val = progressbar.progressbar( "value" ) || 0;
 
-        progressbar.progressbar( "value", val + 2 );
+        progressbar.progressbar( "value", val + 6 );
 
         if ( val < 99 ) {
           setTimeout( progress, 80 );
@@ -375,7 +375,7 @@ $( "#d7" ).click(function() {
 
       $(".display ul.icons a").animate({
         backgroundColor:"red"
-      }, 8000)
+      }, 4000)
       setTimeout( progress, 2000 );
 
     });
@@ -399,7 +399,7 @@ $( "#d8" ).click(function() {
         progressLabel = $( ".progress-label" );
 
       progressbar.progressbar({
-        value: false,
+        value: 0,
         change: function() {
           progressLabel.text( progressbar.progressbar( "value" ) + "%" );
         },
@@ -412,7 +412,7 @@ $( "#d8" ).click(function() {
       function progress() {
         var val = progressbar.progressbar( "value" ) || 0;
 
-        progressbar.progressbar( "value", val + 2 );
+        progressbar.progressbar( "value", val + 6 );
 
         if ( val < 99 ) {
           setTimeout( progress, 80 );
@@ -429,7 +429,7 @@ $( "#d8" ).click(function() {
 
       $(".display ul.icons a").animate({
         backgroundColor:"red"
-      }, 8000)
+      }, 4000)
       setTimeout( progress, 2000 );
 
     });
@@ -453,7 +453,7 @@ $( "#d9" ).click(function() {
         progressLabel = $( ".progress-label" );
 
       progressbar.progressbar({
-        value: false,
+        value: 0,
         change: function() {
           progressLabel.text( progressbar.progressbar( "value" ) + "%" );
         },
@@ -466,7 +466,7 @@ $( "#d9" ).click(function() {
       function progress() {
         var val = progressbar.progressbar( "value" ) || 0;
 
-        progressbar.progressbar( "value", val + 2 );
+        progressbar.progressbar( "value", val + 6 );
 
         if ( val < 99 ) {
           setTimeout( progress, 80 );
@@ -486,7 +486,7 @@ $( "#d9" ).click(function() {
 
       $(".display ul.icons a").animate({
         backgroundColor:"red"
-      }, 8000)
+      }, 4000)
       setTimeout( progress, 2000 );
 
     });
@@ -510,7 +510,7 @@ $( "#d10" ).click(function() {
         progressLabel = $( ".progress-label" );
 
       progressbar.progressbar({
-        value: false,
+        value: 0,
         change: function() {
           progressLabel.text( progressbar.progressbar( "value" ) + "%" );
         },
@@ -523,7 +523,7 @@ $( "#d10" ).click(function() {
       function progress() {
         var val = progressbar.progressbar( "value" ) || 0;
 
-        progressbar.progressbar( "value", val + 2 );
+        progressbar.progressbar( "value", val + 6 );
 
         if ( val < 99 ) {
           setTimeout( progress, 80 );
@@ -535,7 +535,7 @@ $( "#d10" ).click(function() {
 
       $(".display ul.icons a").animate({
         backgroundColor:"red"
-      }, 8000)
+      }, 4000)
       setTimeout( progress, 2000 );
 
     });
