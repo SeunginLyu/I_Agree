@@ -541,8 +541,23 @@ $( "#d10" ).click(function() {
     });
 });
 
-$("#n10").click(function(){
+$("#n10, #a10").click(function(){
   $([document.documentElement, document.body]).animate({
         scrollTop: $("#company-grid").offset().top
     }, 1500);
+
+  markUnavailableCompanies();
 });
+
+function markUnavailableCompanies() {
+  for (let company in removed) {
+    if (removed[company]) {
+      companyId = "#" + company + "-grid";
+      $(companyId).addClass("unavailable-company");
+    }
+  }
+
+  $(".unavailable-company").animate({
+    backgroundColor:"red"
+  }, 5000);
+}

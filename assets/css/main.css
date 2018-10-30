@@ -2665,6 +2665,7 @@ input, select, textarea {
     text-align: center;
     border: 0;
 		color:white;
+    border-radius: 1em;
 }
 
 div.inner-container {
@@ -2689,4 +2690,8 @@ div.outer-container {
 
 .bottom {
   height: 4em;
+}
+
+.pre-grid-space {
+  height: 8em;
 }
