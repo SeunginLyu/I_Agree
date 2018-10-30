@@ -2644,10 +2644,11 @@ input, select, textarea {
 }
 .display ul.icons a {
     display: inline-block;
-    width: 4em;
-    height: 4em;
-    line-height: 4em;
+    width: 3em;
+    height: 3em;
+    line-height: 3em;
     text-align: center;
     border: 0;
 		color:white;
+		margin-top:1em;
 }

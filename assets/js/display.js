@@ -1,10 +1,23 @@
 var removed = {};
+removed['Facebook'] = false;
+removed['Twitter'] = false;
+removed['Instagram'] = false;
+removed['Google'] = false;
+removed['LinkedIn'] = false;
+removed['YouTube'] = false;
+removed['Reddit'] = false;
+removed['Amazon'] = false;
+removed['Ebay'] = false;
+removed['Slack'] = false;
 
 $( "#d1" ).click(function() {
+  $(".displaytext").css("display","block");
   $("#display1").css("display", "block");
+  $(".display ul.icons a").css("background-color", "transparent");
   $([document.documentElement, document.body]).animate({
         scrollTop: $("#display1").offset().top
     }, 1500);
+
   $( function() {
       var progressbar = $( "#progressbar" ),
         progressLabel = $( ".progress-label" );
@@ -16,7 +29,7 @@ $( "#d1" ).click(function() {
         },
         complete: function() {
           progressLabel.text( "Services Removed" );
-          $(".displaytext").text("");
+          $(".displaytext").css("display","none");
         }
       });
 
@@ -39,6 +52,9 @@ $( "#d1" ).click(function() {
       removed['Amazon'] = true;
       removed['Ebay'] = true;
       removed['Slack'] = true;
+      $(".display ul.icons a").animate({
+        backgroundColor:"red"
+      }, 8000)
       setTimeout( progress, 2000 );
     });
 });
@@ -48,10 +64,10 @@ $("#n1").click(function(){
     }, 2000);
 });
 
-var removed = [];
-
 $( "#d2" ).click(function() {
+  $(".displaytext").css("display","block");
   $("#display2").css("display", "block");
+  $(".display ul.icons a").css("background-color", "transparent");
   $([document.documentElement, document.body]).animate({
         scrollTop: $("#display2").offset().top
     }, 2000);
@@ -66,7 +82,7 @@ $( "#d2" ).click(function() {
         },
         complete: function() {
           progressLabel.text( "Services Removed" );
-          $(".displaytext").text("");
+          $(".displaytext").css("display","none");
         }
       });
 
@@ -84,7 +100,11 @@ $( "#d2" ).click(function() {
       removed['LinkedIn'] = true;
       removed['YouTube'] = true;
       removed['Reddit'] = true;
+      $(".display ul.icons a").animate({
+        backgroundColor:"red"
+      }, 8000)
       setTimeout( progress, 2000 );
+
     });
 });
 $("#n2").click(function(){
